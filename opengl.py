@@ -137,7 +137,7 @@ def main():
     gluOrtho2D(0, WIDTH, 0, HEIGHT)
     glMatrixMode(GL_MODELVIEW)
 
-    sun = Planet(0, 0, 20, SUN_COLOR, 1.98892 * 10**30)
+    sun = Planet(0, 0, 26, SUN_COLOR, 1.98892 * 10**30)
     sun.sun = True
 
     mercury = Planet(0.387 * Planet.AU, 0, 0.5, MERCURY_COLOR, 3.30 * 10**23)
